@@ -1,0 +1,84 @@
+body {
+    background-color:gainsboro;
+}
+
+main {
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.avatar {
+    margin: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    
+}
+
+.info {
+    width: 29%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    box-sizing: border-box;
+    
+    
+}
+
+.info h1 {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.info h2 {
+    font-size: 1em;
+    font-weight: 100;
+    color: gray;
+}
+
+.info .bio {
+    background-color: #EDFBDF;
+    width: 100%;
+    border-radius: 7px 7px 0 0 ;
+}
+
+.download{
+    background-color: #F0F0F2;
+    padding: 20px 60px;
+    font-size: 1.2em;
+    font-weight: 200;
+    border-radius: 0 0 7px 7px;
+    
+}
+
+.download a {
+    background-color: rgb(138, 184, 168);
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.content {
+    width: 68%;
+    float: left;
+    background-color: #F0F0F2;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px rgba( 0, 0, 0, 0.2), -1px -1px 2px rgba(0, 0, 0, 0.2) ;
+}
+
+
+
+.clearfix{
+    clear:both;
+}
